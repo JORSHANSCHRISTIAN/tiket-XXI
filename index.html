@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Cinema Ticket Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Luxury Cinema Ticket Booking</h1>
+        <div class="form-group">
+            <label for="movie">Select Movie:</label>
+            <select id="movie" class="form-control">
+                <option value="" disabled selected>Select a movie</option>
+                <option value="Movie 1">Movie 1</option>
+                <option value="Movie 2">Movie 2</option>
+                <option value="Movie 3">Movie 3</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="seat">Select Seat:</label>
+            <select id="seat" class="form-control">
+                <option value="" disabled selected>Select a seat</option>
+                <option value="A1">A1</option>
+                <option value="A2">A2</option>
+                <option value="A3">A3</option>
+                <option value="B1">B1</option>
+                <option value="B2">B2</option>
+                <option value="B3">B3</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="price">Ticket Price:</label>
+            <span id="price" class="price">$10.00</span>
+        </div>
+        <button id="bookBtn" class="btn">Book Now</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+    background-image: url('cinema-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    color: gold;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #555;
+    color: white;
+}
+
+.form-control option {
+    background: #444;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: gold;
+}
+
+.btn {
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffd700;
+    transform: scale(1.05);
+}
